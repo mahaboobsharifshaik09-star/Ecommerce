@@ -9,87 +9,90 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-<style>
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: sans-serif;
-    }
-  
-    
-  
-  .hero{
-    height: 100vh;
-    background: url(../images/main.png.jpg);
-    display: flex;
-    position: relative;
-    background-position: center ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 6px;
-    align-items:center;
-    overflow: hidden;
-    
-  }
-  .hero-content{
-    position: relative;
-    margin:40px;
-    padding: 40px;
-  }
-  .card{
-    overflow: hidden;
-    height: 100%;   
-  }
- .card-img-top{
-  height: 250px;
-  padding: 10px;
-  object-fit:contain;
-  
- }
-
-  @media (max-width:576px)
-  {
-    
-
-    .hero{
-      height: auto;
-      padding: 80px 0;
-    }
-    .hero-content{
+  <style>
+    * {
       margin: 0;
-      padding: 20px;
-      text-align: center;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
     }
-    .hero-content p{
-      font-size: 14px;
-    }
-    .card-img-top{
-      height: 180px;
-    }
-  }
 
-  @media(max-width: 768px)
-  {
-    
 
-    .hero-content h1{
-      font-size: 32px;
-    }
-  }
 
-  @media (max-width: 992px)
-  {
-    .hero-content{
-      padding: 30px;
+    .hero {
+      height: 100vh;
+      background: url(../images/main.png.jpg);
+      display: flex;
+      position: relative;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 6px;
+      align-items: center;
+      overflow: hidden;
+
     }
-    .card-img-top{
-      height: 200px;
+
+    .hero-content {
+      position: relative;
+      margin: 40px;
+      padding: 40px;
     }
-  }
- 
- </style>
- 
+
+    .card {
+      overflow: hidden;
+      height: 100%;
+    }
+
+    .card-img-top {
+      height: 250px;
+      padding: 10px;
+      object-fit: contain;
+
+    }
+
+    @media (max-width:576px) {
+
+
+      .hero {
+        height: auto;
+        padding: 80px 0;
+      }
+
+      .hero-content {
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .hero-content p {
+        font-size: 14px;
+      }
+
+      .card-img-top {
+        height: 180px;
+      }
+    }
+
+    @media(max-width: 768px) {
+
+
+      .hero-content h1 {
+        font-size: 32px;
+      }
+    }
+
+    @media (max-width: 992px) {
+      .hero-content {
+        padding: 30px;
+      }
+
+      .card-img-top {
+        height: 200px;
+      }
+    }
+  </style>
+
 
 
 </head>
@@ -148,399 +151,405 @@
     </nav>
   </header>
 
-   <section class="hero">
+  <section class="hero">
     <div class="hero-content">
-        <h1 class="text-white fw-normal" >New Season Arrivals</h1>
-        <p class="text-white"> This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h1 class="text-white fw-normal">New Season Arrivals</h1>
+      <p class="text-white"> This is a wider card with supporting text below as a natural lead-in to additional content.
+        This content is a little bit longer.</p>
     </div>
-   </section>
-   <br><br>
+  </section>
 
-   <div class="btn-sec text-center">
-    <h1 class="fs-1 fw-light">Latest Product</h1>
-    <hr><br><br>
 
-    <div class="btn-grp d-flex justify-content-center flex-wrap gap-4">
-      <button class="btn btn-outline-dark btn-lg ">All</button>
+  <div class="btn-sec text-center mt-5">
+
+    <h1 class="fs-1 fw-normal">Latest Product</h1>
+    <hr>
+
+    <div class="btn-grp d-flex justify-content-center flex-wrap gap-4 mt-3">
+      <button class="btn btn-outline-dark btn-lg">All</button>
       <button class="btn btn-outline-dark btn-lg">Men's Clothing</button>
       <button class="btn btn-outline-dark btn-lg">Women's Clothing</button>
       <button class="btn btn-outline-dark btn-lg">Jewelery</button>
       <button class="btn btn-outline-dark btn-lg">Electronics</button>
     </div>
-    
-  </div><br>
+
+  </div>
 
   <div class="container my-5">
     <div class="row g-3">
 
       <div class="col-12 col-md-6 col-lg-4 d-flex ">
-       <div class="card text-center">
-        <img src="../images/51eg55uWmdL._AC_UX679_.jpg" class="card-img-top" alt="product">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">Opna Women's...</h5>
-          <p class="card-text">100% Polyester, Machine wash, 100% cationic polyester interlock, Machine   Wash & Pre Shrunk...</p>
+        <div class="card text-center">
+          <img src="../images/51eg55uWmdL._AC_UX679_.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Opna Women's...</h5>
+            <p class="card-text">100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre
+              Shrunk...</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$ 7.95</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-dark"> Details</a>
+            <a href="#" class="btn btn-dark">Add to Cart</a>
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">$ 7.95</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="btn btn-dark"> Details</a>
-          <a href="#" class="btn btn-dark">Add to Cart</a>
-        </div>
-        </div>
-     </div>
+      </div>
 
       <div class="col-12 col-md-6 col-lg-4">
-       <div class="card text-center">
-        <img src="../images/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg" class="card-img-top" alt="product">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">Pierced Owl...</h5>
-          <p class="card-text">Rose Gold Plated Double Flare Tunnel Plug Earrings. Made of 316L Stainless Steel.. </p>
+        <div class="card text-center">
+          <img src="../images/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Pierced Owl...</h5>
+            <p class="card-text">Rose Gold Plated Double Flare Tunnel Plug Earrings. Made of 316L Stainless Steel.. </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$ 10.99</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-dark"> Details</a>
+            <a href="#" class="btn btn-dark">Add to Cart</a>
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">$ 10.99</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="btn btn-dark"> Details</a>
-          <a href="#" class="btn btn-dark">Add to Cart</a>
-        </div>
-        </div>
-     </div>
+      </div>
 
       <div class="col-12 col-md-6 col-lg-4">
-       <div class="card text-center">
-        <img src="../images/51Y5NI-I5jL._AC_UX679_.jpg" class="card-img-top" alt="product">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">BIYLACLESEN...</h5>
-          <p class="card-text">Note:The Jackets is US standard size, 
-Please choose size as your usual wear Material: 100%...</p>
+        <div class="card text-center">
+          <img src="../images/51Y5NI-I5jL._AC_UX679_.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">BIYLACLESEN...</h5>
+            <p class="card-text">Note:The Jackets is US standard size,
+              Please choose size as your usual wear Material: 100%...</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$ 56.99</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-dark"> Details</a>
+            <a href="#" class="btn btn-dark">Add to Cart</a>
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">$ 56.99</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="btn btn-dark"> Details</a>
-          <a href="#" class="btn btn-dark">Add to Cart</a>
-        </div>
-        </div>
-     </div>
+      </div>
 
       <div class="col-12 col-md-6 col-lg-4">
-       <div class="card text-center">
-        <img src="../images/61IBBVJvSDL._AC_SY879_.jpg" class="card-img-top" alt="product">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">WD 2TB Eleme...</h5>
-          <p class="card-text">USB 3.0 and USB 2.0 Compatibility
-Fast data transfers Improve PC
-Performance High Capacity...</p>
+        <div class="card text-center">
+          <img src="../images/61IBBVJvSDL._AC_SY879_.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">WD 2TB Eleme...</h5>
+            <p class="card-text">USB 3.0 and USB 2.0 Compatibility
+              Fast data transfers Improve PC
+              Performance High Capacity...</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$ 64</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-dark"> Details</a>
+            <a href="#" class="btn btn-dark">Add to Cart</a>
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">$ 64</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="btn btn-dark"> Details</a>
-          <a href="#" class="btn btn-dark">Add to Cart</a>
-        </div>
-        </div>
-     </div>
-
-
-      <div class="col-12 col-md-6 col-lg-4">
-       <div class="card text-center" >
-        <img src="../images/61mtL65D4cL._AC_SX679_.jpg" class="card-img-top" alt="product">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">WD 4TB Gamin...</h5>
-          <p class="card-text">Expand your PS4 gaming experience, 
-Play anywhere Fast and easy, setup
-Sleek design with hi...</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">$ 114</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="btn btn-dark"> Details</a>
-          <a href="#" class="btn btn-dark">Add to Cart</a>
-        </div>
-        </div>
-     </div>
-
-      <div class="col-12 col-md-6 col-lg-4">
-       <div class="card text-center" >
-        <img src="../images/61pHAEJ4NML._AC_UX679_.jpg" class="card-img-top" alt="product">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">DANVOUY Wome...</h5>
-          <p class="card-text">95%Cotton, 5%Spandex, Features;
-Casual, Short Sleeve, Letter Print, V-
-Neck, Fashion Tees, The..</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">$ 12.99</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="btn btn-dark"> Details</a>
-          <a href="#" class="btn btn-dark">Add to Cart</a>
-        </div>
-        </div>
-     </div>
+      </div>
 
 
       <div class="col-12 col-md-6 col-lg-4">
-       <div class="card text-center" >
-        <img src="../images/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg" class="card-img-top" alt="product">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">Solid Gold P..</h5>
-          <p class="card-text">Satisfaction Guaranteed. Return or
-exchange any order within 30days.Designed and sold by ...</p>
+        <div class="card text-center">
+          <img src="../images/61mtL65D4cL._AC_SX679_.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">WD 4TB Gamin...</h5>
+            <p class="card-text">Expand your PS4 gaming experience,
+              Play anywhere Fast and easy, setup
+              Sleek design with hi...</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$ 114</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-dark"> Details</a>
+            <a href="#" class="btn btn-dark">Add to Cart</a>
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">$ 168</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="btn btn-dark"> Details</a>
-          <a href="#" class="btn btn-dark">Add to Cart</a>
-        </div>
-        </div>
-     </div>
+      </div>
 
       <div class="col-12 col-md-6 col-lg-4">
-       <div class="card text-center">
-        <img src="../images/61U7T1koQqL._AC_SX679_.jpg" class="card-img-top" alt="product">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">SanDisk SSD...</h5>
-          <p class="card-text">Easy upgrade for faster boot up shutdown, application load and response (As compared to 5...</p>
+        <div class="card text-center">
+          <img src="../images/61pHAEJ4NML._AC_UX679_.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">DANVOUY Wome...</h5>
+            <p class="card-text">95%Cotton, 5%Spandex, Features;
+              Casual, Short Sleeve, Letter Print, V-
+              Neck, Fashion Tees, The..</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$ 12.99</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-dark"> Details</a>
+            <a href="#" class="btn btn-dark">Add to Cart</a>
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">$ 109</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="btn btn-dark"> Details</a>
-          <a href="#" class="btn btn-dark">Add to Cart</a>
-        </div>
-        </div>
-     </div>
+      </div>
+
 
       <div class="col-12 col-md-6 col-lg-4">
-       <div class="card text-center" >
-        <img src="../images/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg" class="card-img-top" alt="product">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">Mens Casual...</h5>
-          <p class="card-text">Slim-fitting style, contrast raglan
-long sleeve, three-button henley
-placket, light weight...</p>
+        <div class="card text-center">
+          <img src="../images/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Solid Gold P..</h5>
+            <p class="card-text">Satisfaction Guaranteed. Return or
+              exchange any order within 30days.Designed and sold by ...</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$ 168</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-dark"> Details</a>
+            <a href="#" class="btn btn-dark">Add to Cart</a>
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">$ 22.3</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="btn btn-dark"> Details</a>
-          <a href="#" class="btn btn-dark">Add to Cart</a>
-        </div>
-        </div>
-     </div>
+      </div>
 
       <div class="col-12 col-md-6 col-lg-4">
-       <div class="card text-center" >
-        <img src="../images/71HblAHs5xL._AC_UY879_-2.jpg" class="card-img-top" alt="product">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">Rain Jacket ...</h5>
-          <p class="card-text">Lightweight perfet for trip or casual
-wear---Long sleeve with hooded, 
-adjustable drawstrin...</p>
+        <div class="card text-center">
+          <img src="../images/61U7T1koQqL._AC_SX679_.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">SanDisk SSD...</h5>
+            <p class="card-text">Easy upgrade for faster boot up shutdown, application load and response (As compared to
+              5...</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$ 109</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-dark"> Details</a>
+            <a href="#" class="btn btn-dark">Add to Cart</a>
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">$ 39.99</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="btn btn-dark"> Details</a>
-          <a href="#" class="btn btn-dark">Add to Cart</a>
-        </div>
-        </div>
-     </div>
+      </div>
 
       <div class="col-12 col-md-6 col-lg-4">
-       <div class="card text-center" >
-        <img src="../images/71kWymZ+c+L._AC_SX679_.jpg" class="card-img-top" alt="product">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">Silicon Powe...</h5>
-          <p class="card-text">3D NAND flash are applied to deliver
-high transfer speeds Remarkable
-transfer speeds that ...</p>
+        <div class="card text-center">
+          <img src="../images/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Mens Casual...</h5>
+            <p class="card-text">Slim-fitting style, contrast raglan
+              long sleeve, three-button henley
+              placket, light weight...</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$ 22.3</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-dark"> Details</a>
+            <a href="#" class="btn btn-dark">Add to Cart</a>
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">$ 109</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="btn btn-dark"> Details</a>
-          <a href="#" class="btn btn-dark">Add to Cart</a>
-        </div>
-        </div>
-     </div>
+      </div>
 
       <div class="col-12 col-md-6 col-lg-4">
-       <div class="card text-center" >
-        <img src="../images/71li-ujtlUL._AC_UX679_.jpg" class="card-img-top" alt="product">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">Mens Cotton ...</h5>
-          <p class="card-text">great outerwear jackets for
-Spring/Autumn/Winter, suitable for
-many occasions, such as wor...</p>
+        <div class="card text-center">
+          <img src="../images/71HblAHs5xL._AC_UY879_-2.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Rain Jacket ...</h5>
+            <p class="card-text">Lightweight perfet for trip or casual
+              wear---Long sleeve with hooded,
+              adjustable drawstrin...</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$ 39.99</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-dark"> Details</a>
+            <a href="#" class="btn btn-dark">Add to Cart</a>
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">$ 55.99</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="btn btn-dark"> Details</a>
-          <a href="#" class="btn btn-dark">Add to Cart</a>
-        </div>
-        </div>
-     </div>
+      </div>
 
       <div class="col-12 col-md-6 col-lg-4">
-       <div class="card text-center" >
-        <img src="../images/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg" class="card-img-top" alt="product">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">John Hardy W...</h5>
-          <p class="card-text">From our Legends Collection, the
-Naga was inspired by the mythical
-water dragon that prote...</p>
+        <div class="card text-center">
+          <img src="../images/71kWymZ+c+L._AC_SX679_.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Silicon Powe...</h5>
+            <p class="card-text">3D NAND flash are applied to deliver
+              high transfer speeds Remarkable
+              transfer speeds that ...</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$ 109</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-dark"> Details</a>
+            <a href="#" class="btn btn-dark">Add to Cart</a>
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">$ 695</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="btn btn-dark"> Details</a>
-          <a href="#" class="btn btn-dark">Add to Cart</a>
-        </div>
-        </div>
-     </div>
+      </div>
 
       <div class="col-12 col-md-6 col-lg-4">
-       <div class="card text-center" >
-        <img src="../images/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg" class="card-img-top" alt="product">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">Solid Gold P..</h5>
-          <p class="card-text">Satisfaction Guaranteed. Return or
-exchange any order within 30days.Designed and sold by ...</p>
+        <div class="card text-center">
+          <img src="../images/71li-ujtlUL._AC_UX679_.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Mens Cotton ...</h5>
+            <p class="card-text">great outerwear jackets for
+              Spring/Autumn/Winter, suitable for
+              many occasions, such as wor...</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$ 55.99</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-dark"> Details</a>
+            <a href="#" class="btn btn-dark">Add to Cart</a>
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">$ 168</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="btn btn-dark"> Details</a>
-          <a href="#" class="btn btn-dark">Add to Cart</a>
-        </div>
-        </div>
-     </div>
+      </div>
 
       <div class="col-12 col-md-6 col-lg-4">
-       <div class="card text-center" >
-        <img src="../images/71YXzeOuslL._AC_UY879_.jpg" class="card-img-top" alt="product">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">Mens Casual ...</h5>
-          <p class="card-text">The color could be slightly different
-between on the screen and in
-practice./ Please note...</p>
+        <div class="card text-center">
+          <img src="../images/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">John Hardy W...</h5>
+            <p class="card-text">From our Legends Collection, the
+              Naga was inspired by the mythical
+              water dragon that prote...</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$ 695</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-dark"> Details</a>
+            <a href="#" class="btn btn-dark">Add to Cart</a>
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">$ 15.99</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="btn btn-dark"> Details</a>
-          <a href="#" class="btn btn-dark">Add to Cart</a>
-        </div>
-        </div>
-     </div>
+      </div>
 
       <div class="col-12 col-md-6 col-lg-4">
-       <div class="card text-center" >
-        <img src="../images/71z3kpMAYsL._AC_UY879_.jpg" class="card-img-top" alt="product">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">MBJ Women's ...</h5>
-          <p class="card-text">95% RAYON 5% SPANDEX, Made in
-USA or Imported, Do Not Bleach, 
-Lightweight fabric with grea..</p>
+        <div class="card text-center">
+          <img src="../images/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Solid Gold P..</h5>
+            <p class="card-text">Satisfaction Guaranteed. Return or
+              exchange any order within 30days.Designed and sold by ...</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$ 168</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-dark"> Details</a>
+            <a href="#" class="btn btn-dark">Add to Cart</a>
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">$ 9.85</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="btn btn-dark"> Details</a>
-          <a href="#" class="btn btn-dark">Add to Cart</a>
-        </div>
-        </div>
-     </div>
+      </div>
 
       <div class="col-12 col-md-6 col-lg-4">
-       <div class="card text-center" >
-        <img src="../images/81fPKd-2AYL._AC_SL1500_.jpg" class="card-img-top" alt="product">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">Fjallraven -...</h5>
-          <p class="card-text">Your perfect pack for everyday use
-and walks in the forest. Stash your
-laptop (up to 15 in...</p>
+        <div class="card text-center">
+          <img src="../images/71YXzeOuslL._AC_UY879_.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Mens Casual ...</h5>
+            <p class="card-text">The color could be slightly different
+              between on the screen and in
+              practice./ Please note...</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$ 15.99</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-dark"> Details</a>
+            <a href="#" class="btn btn-dark">Add to Cart</a>
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">$ 109.95</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="btn btn-dark"> Details</a>
-          <a href="#" class="btn btn-dark">Add to Cart</a>
-        </div>
-        </div>
-     </div>
+      </div>
 
       <div class="col-12 col-md-6 col-lg-4">
-       <div class="card text-center" >
-        <img src="../images/81QpkIctqPL._AC_SX679_.jpg" class="card-img-top" alt="product">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">Acer SB220Q...</h5>
-          <p class="card-text">21.5 inches Full HD (1920x 1080)
-widescreen IPS display And Radeon
-free Sync technology...</p>
+        <div class="card text-center">
+          <img src="../images/71z3kpMAYsL._AC_UY879_.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">MBJ Women's ...</h5>
+            <p class="card-text">95% RAYON 5% SPANDEX, Made in
+              USA or Imported, Do Not Bleach,
+              Lightweight fabric with grea..</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$ 9.85</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-dark"> Details</a>
+            <a href="#" class="btn btn-dark">Add to Cart</a>
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">$ 599</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="btn btn-dark"> Details</a>
-          <a href="#" class="btn btn-dark">Add to Cart</a>
-        </div>
-        </div>
-     </div>
+      </div>
 
       <div class="col-12 col-md-6 col-lg-4">
-       <div class="card text-center" >
-        <img src="../images/81XH0e8fefL._AC_UY879_.jpg" class="card-img-top" alt="product">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">Lock and Lov...</h5>
-          <p class="card-text">100% POLYURETHANE(shell) 100%POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux...</p>
+        <div class="card text-center">
+          <img src="../images/81fPKd-2AYL._AC_SL1500_.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Fjallraven -...</h5>
+            <p class="card-text">Your perfect pack for everyday use
+              and walks in the forest. Stash your
+              laptop (up to 15 in...</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$ 109.95</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-dark"> Details</a>
+            <a href="#" class="btn btn-dark">Add to Cart</a>
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">$ 29.95</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="btn btn-dark"> Details</a>
-          <a href="#" class="btn btn-dark">Add to Cart</a>
-        </div>
-        </div>
-     </div>
+      </div>
 
       <div class="col-12 col-md-6 col-lg-4">
-       <div class="card text-center" >
-        <img src="../images/81Zt42ioCgL._AC_SX679_.jpg" class="card-img-top" alt="product">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">Samsung 49-1...</h5>
-          <p class="card-text">49 INCH SUPER ULTRAWIDE 32:9CURVED GAMING MONITOR with dual 27 inch screen side by side Q...</p>
+        <div class="card text-center">
+          <img src="../images/81QpkIctqPL._AC_SX679_.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Acer SB220Q...</h5>
+            <p class="card-text">21.5 inches Full HD (1920x 1080)
+              widescreen IPS display And Radeon
+              free Sync technology...</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$ 599</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-dark"> Details</a>
+            <a href="#" class="btn btn-dark">Add to Cart</a>
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">$ 999.99</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="btn btn-dark"> Details</a>
-          <a href="#" class="btn btn-dark">Add to Cart</a>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card text-center">
+          <img src="../images/81XH0e8fefL._AC_UY879_.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Lock and Lov...</h5>
+            <p class="card-text">100% POLYURETHANE(shell) 100%POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER),
+              Faux...</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$ 29.95</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-dark"> Details</a>
+            <a href="#" class="btn btn-dark">Add to Cart</a>
+          </div>
         </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card text-center">
+          <img src="../images/81Zt42ioCgL._AC_SX679_.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Samsung 49-1...</h5>
+            <p class="card-text">49 INCH SUPER ULTRAWIDE 32:9CURVED GAMING MONITOR with dual 27 inch screen side by side
+              Q...</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$ 999.99</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-dark"> Details</a>
+            <a href="#" class="btn btn-dark">Add to Cart</a>
+          </div>
         </div>
-     </div>
+      </div>
 
     </div>
   </div>
@@ -551,7 +560,7 @@ free Sync technology...</p>
 
 
 
- 
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 
